@@ -8,7 +8,7 @@ Web-based MongoDB admin interface written with Node.js and express
 [![Build Status](https://secure.travis-ci.org/andzdroid/mongo-express.png?branch=develop)](http://travis-ci.org/andzdroid/mongo-express) - Develop branch
 
 
-Features
+功能
 --------
 
 Current features:
@@ -29,7 +29,7 @@ Planned features:
 * REST interface
 
 
-Limitations
+局限性
 -----------
 
 * Documents must have `document._id` property to be edited
@@ -42,7 +42,7 @@ interface can be used for executing malicious javascript on a server.
 **mongo-express should only be used privately for development purposes**.
 
 
-Screenshots
+截屏
 -----------
 
 <img src="http://i.imgur.com/DOi3b.png" title="Viewing documents in a collection" />
@@ -53,7 +53,7 @@ Click here for more screenshots:
 These screenshots are from version 0.11.0.
 
 
-Usage
+使用
 -----
 
 **To install:**
@@ -79,7 +79,7 @@ Fill in your MongoDB connection details, and any other options you want to chang
 Visit `http://localhost:8081` or whatever URL/port you entered into your config.
 
 
-BSON Data Types
+BSON 数据类型
 ---------------
 
 The following BSON data types are supported in the mongo-express document editor/viewer.
@@ -185,7 +185,7 @@ Here is an example of a document which can be read/edited in mongo-express:
       "symbol": Symbol("test")
     }
 
-License
+许可证
 -------
 MIT License
 
